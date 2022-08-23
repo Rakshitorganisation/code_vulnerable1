@@ -1,0 +1,20 @@
+on: [pull_request]
+
+name: Jira Issue Creation Demo
+jobs:
+  jiraIssueCreation:
+    name: Jira Issue Creation Demo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Jira Creation Demo
+        uses: bryannice/gitactions-jira-issue-creation@master
+        env:
+          JIRA_ACCOUNT_URL: https://rakshitmohan99.atlassian.net/
+          JIRA_API_TOKEN: OEcXF380PJplTaCFCDT79555
+          JIRA_ISSUE_ATTACHMENT: log_file.log
+          JIRA_ISSUE_DESCRIPTION: Demo'ing Jira Issue Creation
+          JIRA_ISSUE_SUMMARY: Demo'ing Jira Issue Creation
+          JIRA_ISSUE_TYPE: Demo'ing Jira Issue Creation
+          JIRA_PROJECT: jira-issue-creation
+          JIRA_USERNAME: rakshitmohan99@gmail.com
