@@ -12,7 +12,6 @@ jobs:
         env:
           JIRA_ACCOUNT_URL: https://rakshitmohan99.atlassian.net/
           JIRA_API_TOKEN: OEcXF380PJplTaCFCDT79555
-          JIRA_ISSUE_ATTACHMENT: log_file.log
           JIRA_ISSUE_DESCRIPTION: Demo'ing Jira Issue Creation
           JIRA_ISSUE_SUMMARY: Demo'ing Jira Issue Creation
           JIRA_ISSUE_TYPE: Demo'ing Jira Issue Creation
